@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Automation-TestSuite"  >
+
+	<parameter name="browser-name" value="chrome" />
+	<parameter name="operating-system" value="windows" />
+	
+	<test name="E2E TestSuite">
+		<classes>
+			<class name="TestCases.Shoping" />
+		</classes>
+	</test>
+	
+
+</suite> <!-- Suite -->
