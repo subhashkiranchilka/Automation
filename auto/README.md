@@ -33,4 +33,7 @@ MAVEN - set home path.
 4. Open E2E_TestSuite.xml and change the browser-name valued to "IE" and save.
 5. right click on E2E_TestSuite.xml and run as TestNG Suite to execute scripts on Chrome.
 
-========================================================================================================
+==========================================.html / ==============================================================
+
+Reports will be available in below folder.
+test-output -->emailable-report.html / index.html.
